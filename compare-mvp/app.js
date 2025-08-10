@@ -28,6 +28,9 @@ const FALLBACK_PRODUCTS = [
 ];
 
 async function loadProducts() {
+  if (Array.isArray(window.__PRODUCTS__)) {
+    return window.__PRODUCTS__;
+  }
   try {
     const res = await fetch("./data/products.json", { cache: "no-store" });
     if (!res.ok) throw new Error("Failed to fetch products");
