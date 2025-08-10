@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Compare Products</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <h1>Comparison</h1>
+      <div class="controls">
+        <input id="search" type="search" placeholder="Search..." />
+        <select id="sort">
+          <option value="relevance">Sort: Relevance</option>
+          <option value="price-asc">Price: Low to High</option>
+          <option value="price-desc">Price: High to Low</option>
+          <option value="rating-desc">Rating: High to Low</option>
+        </select>
+        <button id="compareBtn" disabled>Compare (0)</button>
+      </div>
+    </header>
+
+    <main class="container">
+      <aside class="filters">
+        <h2>Filters</h2>
+        <div id="filters"></div>
+        <button id="clearFilters" class="clear">Clear filters</button>
+      </aside>
+      <section class="results">
+        <div id="grid" class="grid"></div>
+        <div id="empty" class="empty" hidden>No results</div>
+      </section>
+    </main>
+
+    <dialog id="compareDialog">
+      <div class="dialog-content">
+        <div class="dialog-header">
+          <h3>Compare</h3>
+          <button id="closeDialog" aria-label="Close">✕</button>
+        </div>
+        <div id="compareTableWrap" class="table-wrap"></div>
+      </div>
+    </dialog>
+
+    <footer class="container footer">
+      <small>Demo MVP</small>
+    </footer>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

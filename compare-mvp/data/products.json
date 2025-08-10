@@ -1,0 +1,162 @@
+[
+  {
+    "id": "p1",
+    "name": "Astra One",
+    "brand": "Astra",
+    "price": 699,
+    "rating": 4.5,
+    "tags": ["5G", "OLED", "Dual-SIM"],
+    "features": {
+      "Battery life (hrs)": 22,
+      "Weight (g)": 175,
+      "Storage (GB)": 128,
+      "RAM (GB)": 8,
+      "Waterproof": true,
+      "Warranty (years)": 2
+    }
+  },
+  {
+    "id": "p2",
+    "name": "Astra Pro",
+    "brand": "Astra",
+    "price": 899,
+    "rating": 4.7,
+    "tags": ["5G", "OLED", "eSIM"],
+    "features": {
+      "Battery life (hrs)": 25,
+      "Weight (g)": 185,
+      "Storage (GB)": 256,
+      "RAM (GB)": 12,
+      "Waterproof": true,
+      "Warranty (years)": 2
+    }
+  },
+  {
+    "id": "p3",
+    "name": "Lumina X",
+    "brand": "Lumina",
+    "price": 649,
+    "rating": 4.3,
+    "tags": ["5G", "AMOLED", "Dual-SIM"],
+    "features": {
+      "Battery life (hrs)": 20,
+      "Weight (g)": 168,
+      "Storage (GB)": 128,
+      "RAM (GB)": 8,
+      "Waterproof": false,
+      "Warranty (years)": 1
+    }
+  },
+  {
+    "id": "p4",
+    "name": "Lumina XL",
+    "brand": "Lumina",
+    "price": 799,
+    "rating": 4.6,
+    "tags": ["5G", "AMOLED", "eSIM"],
+    "features": {
+      "Battery life (hrs)": 24,
+      "Weight (g)": 178,
+      "Storage (GB)": 256,
+      "RAM (GB)": 12,
+      "Waterproof": true,
+      "Warranty (years)": 2
+    }
+  },
+  {
+    "id": "p5",
+    "name": "Nordic S",
+    "brand": "Nordic",
+    "price": 499,
+    "rating": 4.1,
+    "tags": ["4G", "LCD", "Dual-SIM"],
+    "features": {
+      "Battery life (hrs)": 18,
+      "Weight (g)": 190,
+      "Storage (GB)": 64,
+      "RAM (GB)": 6,
+      "Waterproof": false,
+      "Warranty (years)": 1
+    }
+  },
+  {
+    "id": "p6",
+    "name": "Nordic T",
+    "brand": "Nordic",
+    "price": 579,
+    "rating": 4.2,
+    "tags": ["5G", "LCD", "Dual-SIM"],
+    "features": {
+      "Battery life (hrs)": 19,
+      "Weight (g)": 188,
+      "Storage (GB)": 128,
+      "RAM (GB)": 8,
+      "Waterproof": false,
+      "Warranty (years)": 1
+    }
+  },
+  {
+    "id": "p7",
+    "name": "Zenith 10",
+    "brand": "Zenith",
+    "price": 999,
+    "rating": 4.8,
+    "tags": ["5G", "LTPO", "eSIM"],
+    "features": {
+      "Battery life (hrs)": 26,
+      "Weight (g)": 195,
+      "Storage (GB)": 512,
+      "RAM (GB)": 12,
+      "Waterproof": true,
+      "Warranty (years)": 3
+    }
+  },
+  {
+    "id": "p8",
+    "name": "Zenith 10 Mini",
+    "brand": "Zenith",
+    "price": 749,
+    "rating": 4.4,
+    "tags": ["5G", "OLED", "eSIM"],
+    "features": {
+      "Battery life (hrs)": 21,
+      "Weight (g)": 160,
+      "Storage (GB)": 256,
+      "RAM (GB)": 8,
+      "Waterproof": true,
+      "Warranty (years)": 2
+    }
+  },
+  {
+    "id": "p9",
+    "name": "Pixelate 7",
+    "brand": "Pixelate",
+    "price": 699,
+    "rating": 4.5,
+    "tags": ["5G", "OLED", "Dual-SIM"],
+    "features": {
+      "Battery life (hrs)": 23,
+      "Weight (g)": 180,
+      "Storage (GB)": 128,
+      "RAM (GB)": 8,
+      "Waterproof": true,
+      "Warranty (years)": 2
+    }
+  },
+  {
+    "id": "p10",
+    "name": "Pixelate 7 Pro",
+    "brand": "Pixelate",
+    "price": 849,
+    "rating": 4.6,
+    "tags": ["5G", "LTPO", "eSIM"],
+    "features": {
+      "Battery life (hrs)": 25,
+      "Weight (g)": 182,
+      "Storage (GB)": 256,
+      "RAM (GB)": 12,
+      "Waterproof": true,
+      "Warranty (years)": 3
+    }
+  }
+]
